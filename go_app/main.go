@@ -13,7 +13,7 @@ import (
 
 func main() {
 	// This function is the main function
-
+	// variables
 	var guess int
 	var answer int
 
@@ -33,7 +33,8 @@ func main() {
 	if guess == answer {
 		fmt.Println()
 		fmt.Println("You guessed correctly!")
-	} else {
+	}
+	if guess != answer {
 		fmt.Println()
 		fmt.Println("You guessed wrong!")
 		fmt.Println("The correct answer was", answer)
